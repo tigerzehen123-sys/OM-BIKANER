@@ -1,0 +1,1 @@
+const m=document.getElementById("menuImage"),l=document.getElementById("lightbox"),i=document.getElementById("lightboxImage"),c=document.getElementById("closeBtn");m.onclick=()=>{l.style.display="flex";i.src=m.src};c.onclick=()=>l.style.display="none";l.onclick=e=>{if(e.target===l)l.style.display="none"};
