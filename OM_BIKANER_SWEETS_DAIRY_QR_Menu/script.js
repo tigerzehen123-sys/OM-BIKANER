@@ -1,0 +1,1 @@
+const l=document.getElementById('lightbox');document.getElementById('menu').onclick=()=>l.style.display='flex';l.onclick=()=>l.style.display='none';
